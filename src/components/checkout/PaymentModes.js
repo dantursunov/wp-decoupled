@@ -11,7 +11,7 @@ const PaymentModes = ({ input, handleOnChange }) => {
                         onChange={handleOnChange}
                         value="paypal"
                         className="form-check-input"
-                        name="paymentMode"
+                        name="paymentMethod"
                         type="radio"
                     />
                     <span className="wd-payment-content">Pay with Paypal</span>
