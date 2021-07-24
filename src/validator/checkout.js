@@ -83,7 +83,7 @@ const validateAndSanitizeCheckoutForm = (data) => {
     addErrorAndSanitizedData('lastName', 'Last name', 2, 35, 'string', true);
     addErrorAndSanitizedData('companyName', 'Company Name', 0, 35, 'string', false);
     addErrorAndSanitizedData('country', 'Country name', 2, 55, 'string', true);
-    addErrorAndSanitizedData('streetAddressOne', 'Street address line 1', 5, 100, 'string', true);
+    addErrorAndSanitizedData('streetAddressOne', 'Street address line 1', 5, 100, 'string', false);
     addErrorAndSanitizedData('streetAddressTwo', '', 0, 254, 'string', false);
     addErrorAndSanitizedData('city', 'City field', 3, 25, 'string', true);
     addErrorAndSanitizedData('county', '', false);
